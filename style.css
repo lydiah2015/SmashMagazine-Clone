@@ -91,9 +91,10 @@ nav {
     background-color: white;
     display: flex;
     justify-content: space-around;
-    overflow: auto;
     /* box-shadow:  #F0F0F0; */
     box-shadow: 0 4px 8px 0  #F0F0F0;;
+    overflow-x: scroll;
+    
 
 }
 
@@ -107,31 +108,48 @@ nav {
     color: #D33A2C;
     background-color: #ffe3e3;
     border-radius: 10px;
-    padding: 4px;
+    padding: 10px;
     margin: 10px;
-    font-size: 16px;
+    font-size: 13px;
+    font-weight: 500;
     border:none;
-    width: fit-content;
+    /* width: 100%; */
+   white-space: nowrap;
+
 }
 #btnsId:hover{
     border: 1px solid #D33A2C;
     cursor: pointer;
+   
 }
 
+
+#btnsId:active{
+    background-color: #D33A2C;
+    color: white;
+    /* border-style: dashed; */
+    outline: 2px dashed #D33A2C;
+    outline-offset: 2px;
+
+}
 
 #jumpbtn {
     color: #D33A2C;
     background-color: white;
     border-radius: 10px;
-    padding: 4px;
+    padding: 10px;
     margin: 10px;
-    font-size: 16px;
-    width: fit-content;
+    font-size: 13px;
+    font-weight: 500;
+    /* width: 180px; */
     border: 1px solid black;
+    white-space: nowrap;
+ 
+
 }
 footer{
     background-color: #D33A2C;
-    position: relative;
+    /* position: relative; */
     /* text-align: center; */
     /* height:auto; */
     width: 100%;
@@ -153,7 +171,7 @@ footer{
 } */
 h5{
     text-align: center;
-    margin-top: 40px;
+    padding-top: 60px;
     margin-bottom: 80px;
 }
 .centering{
