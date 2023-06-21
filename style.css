@@ -2,6 +2,7 @@ body {
     padding: 0px;
     margin: 0%;
     box-sizing: border-box;
+    /* overflow: scroll; */
 }
 
 .navbar {
@@ -130,45 +131,102 @@ nav {
 }
 footer{
     background-color: #D33A2C;
-    position: fixed;
+    position: relative;
     /* text-align: center; */
-    height:70%;
-    width: auto;
+    /* height:auto; */
+    width: 100%;
     /* margin-top: 70px; */
     color: white;
     /* margin-bottom: 200px; */
     padding: auto;
+    /* overflow: scroll; */
 }
-.list{
+/* .list{
     display: flex;
-    /* justify-content: center; */
+   
     flex-wrap: wrap;
     flex-direction: row;
-    /* justify-content: space-around; */
+  
     margin-bottom: 5%;
 
 
-}
+} */
 h5{
     text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
 }
 .centering{
     text-align: center;
 }
-.contact{
+/* .contact{
     display: flex;
     flex-direction: row;
-    /* margin-bottom: 50px; */
     justify-content:space-evenly;
     text-align: center;
-}
-.lastLine{
+} */
+/* .lastLine{
     display: flex;
     flex-direction: row;
-/* margin-right:30px ; */
-}
-#Lline{
-    /* margin-right:50px ; */
+} */
+/* #Lline{
+   
     text-align: center;
-    /* margin-left: 250px; */
+} */
+
+
+ul {list-style: none;
+font-size: 20px;
+}
+
+li::before {content: "•"; 
+    color:#811D15;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+ }
+
+.list1{
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
+    width:80%;
+    margin: auto;
+    margin-bottom: 10px;
+
+
+}
+.list2{
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
+    width:75%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.list3{
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
+    width:80%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.list4{
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
+    width:65%;
+    margin: auto;
+    margin-bottom: 90px;
+}
+.contact{
+    margin-bottom: 30px;
+}
+.lastLine{
+    padding-bottom: 30px;
 }
