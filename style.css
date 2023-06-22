@@ -248,3 +248,133 @@ li::before {content: "•";
 .lastLine{
     padding-bottom: 30px;
 }
+.person1{
+    border:6px solid #D33A2C;
+    border-radius:10px;
+    width: 130px;
+    height:130px;
+    transform: rotate(-0.05turn);
+    box-shadow: 0px 10px 15px grey ;
+    /* box-shadow: 10px 5px 5px black;; */
+    /* padding-bottom: 20px; */
+}
+.visual{
+    /* margin-top: 30px; */
+    font-size: 17px;
+    width:82%;
+    margin-bottom: 40px;
+}
+.person1:active{
+    outline:2px dashed #D33A2C ;
+    outline-offset: 10px;
+}
+.person1:hover{
+    cursor: pointer;
+    transform: rotate(0);
+    transition: .4s;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+}
+
+.topParagraph{
+    /* padding-top: 20px; */
+    margin-bottom: 50px; 
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+.person2{
+    border:6px solid #D33A2C;
+    border-radius:10px;
+    width: 100px;
+    height:100px;
+    transform: rotate(-0.03turn);
+    box-shadow: 0px 10px 15px grey ;
+}
+.person2:active{
+    outline:2px dashed #D33A2C ;
+    outline-offset: 10px;
+}
+.person3{
+    border:6px solid #D33A2C;
+    border-radius:10px;
+    width: 100px;
+    height:90px;
+    transform: rotate(-0.03turn);
+    box-shadow: 0px 10px 15px grey ;
+}
+.person3:active{
+    outline:2px dashed #D33A2C ;
+    outline-offset: 10px;
+}
+
+.floatHeading{
+    /* float: right; */
+    width: 50%;
+    margin-left:80px;
+    /* margin-bottom: 50px; */
+    /* margin-left: 1; */
+
+
+}
+.visual{
+    /* margin-top: 50px; */
+    display: flex;
+    flex-direction: column;
+}
+.column1{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+.monkey{
+    width:350px;
+    height:250px;
+}
+.portion2{
+    display: flex;
+    flex-direction: column;
+}
+.part1Body{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding:5%
+}
+.paragraph2{
+    /* float:left; */
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.paragraph3{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.floatHeading2{
+    /* float: right;
+    width: 50%; */
+    margin-left: 50px;
+    
+}
+.floatHeading3{
+    /* float: right;
+    width: 50%; */
+    margin-left: 50px;
+}
+.btnMonkey{
+    background-color: white;
+    color: #D33A2C;
+    width: 55%;
+    border-radius: 10px;
+    /* display: inline-block;
+    text-align: center; */
+    font-weight: 800;
+    font-size: 20px;
+    padding:3%;
+    margin-left: 20px;
+}
+.centerMonkey{
+    text-align: center;
+}
