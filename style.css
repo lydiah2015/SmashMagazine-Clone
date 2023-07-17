@@ -2,7 +2,7 @@ body {
     padding: 0px;
     margin: 0%;
     box-sizing: border-box;
-    /* overflow: scroll; */
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -650,6 +650,10 @@ li::before {
 
 }
 
+.seeGinfo:hover{
+    color:#D33A2C;
+}
+
 .articlePerson1 {
     border: 6px solid #D33A2C;
     border-radius: 10px;
@@ -718,5 +722,221 @@ li::before {
     letter-spacing: 1px;
     font-weight: 400;
     text-decoration: rgb(102, 102, 102);
+
+}
+.familyH2{
+    font-size: 46.5667px;
+    font-weight: 700;
+    color: RGB(51, 51, 51);
+    /* font-family: ; */
+    text-align: center;
+}
+.familyH3{
+    font-size: 27.8333px;
+    color: RGB(211, 58, 44);
+    font-weight: 700;
+    text-align: center;
+
+
+}
+.h2guides:hover{
+    color:#D33A2C;
+}
+.bookMonkey{
+    width: 300px;
+    height: 200px;
+}
+.FirstP{
+    font-size: 31.121px;
+    color: RGB(51, 51, 51);
+    font-weight: 700;
+    font-family: serif;
+
+}
+.infoCards{
+display: flex;
+flex-direction: row;
+margin-left: 80px;
+margin-right: 80px;
+overflow-x: scroll;
+width: 100%;
+}
+.infoCard1{
+    background-color:#F1FDF8 ;
+    text-align: center;
+    padding: 125px 31.121px 41.4947px;
+    margin: 125px 31.121px 0px 0px;
+    border-radius: 15px;
+    /* position: relative; */
+    width:500px;
+  
+}
+.infoCard2{
+    background-color:#E7F8FF ;
+    text-align: center;
+    padding: 125px 31.121px 41.4947px;
+    margin: 125px 31.121px 0px 0px;
+    border-radius: 15px;
+    /* position: relative; */
+    width: 500px;
+
+
+}
+.infoCard3{
+    background-color:#FFE5E2 ;
+    text-align: center;
+    padding: 125px 31.121px 41.4947px;
+    margin: 125px 31.121px 0px 0px;
+    border-radius: 15px;
+    /* position: relative; */
+    width: 500px;
+
+
+}
+.infoCard4{
+    background-color:#E3F7E5 ;
+    text-align: center;
+    padding: 125px 31.121px 41.4947px;
+    margin: 125px 31.121px 0px 0px;
+    border-radius: 15px;
+    /* position: relative; */
+    width: 500px;
+}
+.infoCard5{
+    background-color: #FDFFE5;
+    text-align: center;
+    padding: 125px 31.121px 41.4947px;
+    margin: 125px 31.121px 0px 0px;
+    border-radius: 15px;
+    /* position: relative; */
+    width: 500px;
+
+}
+.infobtn1{
+background-color:#18A46F;
+border: none;
+font-size: 23.8595px;
+font-weight: 700;
+text-align: center;
+color: #FFFFFF;
+padding:5%;
+border-radius: 10px;
+margin-top:15px;
+
+}
+.infobtn2{
+background-color: #006FC6 ;
+border: none;
+font-size: 23.8595px;
+font-weight: 700;
+text-align: center;
+color: #FFFFFF;
+padding:5%;
+border-radius: 10px;
+margin-top:15px;
+
+
+
+}
+.infobtn3{
+background-color:#E62143 ;
+border: none;
+font-size: 23.8595px;
+font-weight: 700;
+text-align: center;
+color: #FFFFFF;
+padding:5%;
+border-radius: 10px;
+margin-top:15px;
+
+
+
+}
+.infobtn4{
+background-color: #41B14F;
+border: none;
+font-size: 23.8595px;
+font-weight: 700;
+text-align: center;
+color: #FFFFFF;
+padding:5%;
+border-radius: 10px;
+
+
+}
+.infobtn5{
+background-color: #FF6411;
+border: none;
+font-size: 23.8595px;
+font-weight: 700;
+text-align: center;
+color: #FFFFFF;
+padding:5%;
+border-radius: 10px;
+margin-top:15px;
+
+}
+.infoItalic{
+    font-weight: 400;
+    line-height: 22.4px;
+    color: RGB(102, 102, 102);
+    font-style: italic;
+    font-size: 16.5979px;
+
+}
+.infoP{
+    color: RGB(0, 0, 0);
+    margin: 28.414px 0px 0px;
+    font-size: 20.7474px;
+    font-weight: 400;
+    margin: 28.414px 0px 0px
+
+
+}
+/* .infoMonkey{
+    position: absolute;
+    bottom: 80%;
+  
+} */
+.footer1a{
+    font-weight: 700;
+    font-size: 55.6233px;
+    font-family: sans-serif;
+    color: RGB(255, 255, 255);
+    /* width: 30px; */
+    text-decoration: underline 5px #4399D9;
+    text-align: center;
+    
+
+}
+.footerp{
+    color: #FFFFFF;
+    font-size: 24.8968px;
+    font-weight: 400;
+    margin: 24.8968px auto 49.7937px;
+    
+}
+.footer1{
+    background-color: #006FC6;
+    text-align:center;
+}
+.atag{
+    width: 58%;
+    margin:auto;
+}
+.ptag{
+    width:70%;
+    margin:auto;
+}
+.footerbtn{
+    background-color: #FFFFFF;
+    color:#267DCC;
+    font-size: 24.5807px;
+    font-weight: 700;
+    padding: 18.4355px 24.5807px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 50px;
 
 }
