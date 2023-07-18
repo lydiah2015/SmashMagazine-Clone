@@ -940,3 +940,108 @@ margin-top:15px;
     margin-bottom: 50px;
 
 }
+.monkeySea{
+    width: 80%;
+    height:auto;
+    margin: auto;
+    /* margin-bottom: -4em; */
+}
+.personWeek {
+    display: flex;
+    flex-direction: row;
+}
+.chiara{
+    border: 6px solid #D33A2C;
+    border-radius: 10px;
+    width: 180px;
+    height: 180px;
+    transform: rotate(-0.05turn);
+    box-shadow: 0px 10px 15px grey;
+    margin-top: 50px;
+    margin-left:50px;
+}
+.personWeekBody{
+    width:70%;
+    margin: auto;
+   
+}
+.personWeekP{
+    font-size: 20.7474px;
+    color: RGB(51, 51, 51);
+    font-weight: 400;
+    line-height: 34.1833px;
+}
+.personWeekH{
+    color: #666666;
+    font-size: 18.6726px;
+    font-weight: 400;
+    line-height: 40.6px;
+    text-transform: uppercase
+}
+.personCards1{
+    display: grid;
+    grid-template-columns:45% 45% ;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
+.pCard1{
+    margin-left:100px;
+    display: flex;
+    flex-direction: row;
+}
+.pCard2{
+margin-left:100px;
+display: flex;
+flex-direction: row;
+}
+.pCard2Deets{
+    margin-left:20px;
+}
+.pCardImages{
+    border: 6px solid #D33A2C;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    transform: rotate(-0.03turn);
+    box-shadow: 0px 10px 15px grey;
+    /* position: relative; */
+    /* right: 90px; */
+}
+.pCard1Deets{
+    margin-left:20px;
+}
+.pCardsA{
+    color:#DB5D52;
+    font-weight: 700;
+    font-size: 20.206px;
+    font-family: sans-serif;
+    text-decoration: underline 1px rgb(211, 58, 44);
+
+}
+/* .pCardsA:hover{
+
+} */
+.cardPheader{
+    color: black;
+    font-size: 33.35px;
+    font-weight: 700;
+    /* line-height: 40.0167px; */
+    text-decoration: none;
+}
+.cardPheader:hover{
+color: rgb(211, 58, 44);
+}
+.cardPMain{
+    color: #333333;
+    font-weight: 400;
+    font-size: 20.7474px;
+
+}
+.time{
+    font-size: 18.6726px;
+    color: #666666;
+    font-weight: 400;
+    letter-spacing: 1px;
+    
+}
