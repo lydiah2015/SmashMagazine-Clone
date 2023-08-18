@@ -1,8 +1,17 @@
+@font-face {
+    font-family: 'Mija' ;
+    src: url('/Fonts/mija_w03_regular-webfont.woff2') format('woff2'),
+         url('/Fonts/mija_w03_regular-webfont.woff') format('woff ');
+}
+* {
+    box-sizing: border-box;
+  }
 body {
     padding: 0px;
     margin: 0%;
     box-sizing: border-box;
     overflow-x: hidden;
+    font-family: 'Mija';
 }
 
 .navbar {
@@ -10,13 +19,13 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
+    font-family: 'Mija';
 
 }
 
 nav {
     background-color: #D33A2C;
-
+    font-family: 'Mija';
 }
 
 .btn {
@@ -29,6 +38,9 @@ nav {
     color: white;
     font-size: 20px;
     border-radius: 12px;
+    font-family: 'Mija';
+    font-weight: 700;
+
 
 }
 
@@ -41,6 +53,9 @@ nav {
     color: white;
     text-decoration: none;
     font-size: 20px;
+    font-family: 'Mija';
+    font-weight: 700;
+
 
 }
 
@@ -58,7 +73,7 @@ nav {
     border-radius: 12px;
     height: 40px;
     font-size: 22px;
-
+    font-family: 'Mija';
 }
 
 .search {
@@ -97,9 +112,8 @@ nav {
     justify-content: space-around;
     /* box-shadow:  #F0F0F0; */
     box-shadow: 0 4px 8px 0 #F0F0F0;
-    ;
     overflow-x: scroll;
-
+    font-family: 'Mija';
 
 }
 
@@ -116,10 +130,12 @@ nav {
     padding: 10px;
     margin: 10px;
     font-size: 13px;
-    font-weight: 500;
+    /* font-weight: 500; */
     border: none;
     /* width: 100%; */
     white-space: nowrap;
+    font-weight: 700;
+    font-family: 'Mija';
 
 }
 
@@ -153,6 +169,20 @@ nav {
 
 
 }
+.pvisual{
+    font-size: 20.7473px;
+    color: #333333;
+    font-weight: 400;
+    
+
+}
+.h1visual{
+ font-size: 45.9667px;
+    color: RGB(51, 51, 51);
+    font-weight: 900;
+    line-height: 55.1667px;
+    font-family: 'Mija';
+}
 
 footer {
     background-color: #D33A2C;
@@ -165,6 +195,7 @@ footer {
     /* margin-bottom: 200px; */
     padding: auto;
     /* overflow: scroll; */
+    font-family: 'Mija';
 }
 
 /* .list{
@@ -181,6 +212,7 @@ h5 {
     text-align: center;
     padding-top: 60px;
     margin-bottom: 80px;
+    font-family: 'Mija';
 }
 
 .centering {
@@ -206,6 +238,7 @@ h5 {
 ul {
     list-style: none;
     font-size: 20px;
+    font-family: 'Mija';
 }
 
 li::before {
@@ -382,15 +415,15 @@ li::before {
 }
 
 .monkey {
-    width: 350px;
-    height: 250px;
+    width: 450px;
+    height: 240px;
 
 
 }
 
 .monkeyImage {
     position: absolute;
-    bottom: 80%;
+    bottom: 78%;
 }
 
 .portion2 {
@@ -441,7 +474,8 @@ li::before {
     font-size: 20px;
     padding: 20px;
     margin-left: 20px;
-    margin-top: 40%;
+    margin-top: 55%;
+    font-family: 'Mija';
 }
 
 .centerMonkey {
@@ -476,7 +510,7 @@ li::before {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
+    font-family: 'Mija';
 }
 
 .card1 {
@@ -517,7 +551,7 @@ transition: box-shadow .2s ease-in-out;
     padding: 18.4355px 24.5807px;
     border-radius: 15px;
     font-style: normal;
-    /* font-family: ; */
+    font-family: 'Mija';
     margin: 32px 0px 0px;
     text-decoration: rgb(255, 255, 255);
     text-align: center;
@@ -546,16 +580,15 @@ transition: box-shadow .2s ease-in-out;
     text-underline-offset: 5px;
     text-align: center;
     text-decoration-color: #D33A2C;
-
+    font-family: 'Mija';
     text-decoration-thickness: 3px;
     color: RGB(0, 0, 0);
     font-size: 15.5605px;
     letter-spacing: 1px;
-
     font-weight: 400;
     font-style: normal;
     font-variant: petite-caps;
-
+    font-family: 'Mija';
 
 }
 
@@ -574,7 +607,7 @@ transition: box-shadow .2s ease-in-out;
     writing-mode: vertical-rl;
     /* text-decoration: underline;
     text-underline-position: under left; */
-
+    font-family: 'Mija';
 
 
 }
@@ -952,7 +985,7 @@ transition: box-shadow .2s ease-in-out;
 .footer1a {
     font-weight: 700;
     font-size: 55.6233px;
-    font-family: sans-serif;
+    font-family: 'Mija';
     color: RGB(255, 255, 255);
     /* width: 30px; */
     text-decoration: underline 5px #4399D9;
@@ -966,6 +999,7 @@ transition: box-shadow .2s ease-in-out;
     font-size: 24.8968px;
     font-weight: 400;
     margin: 24.8968px auto 49.7937px;
+    font-family: 'Mija';
 
 }
 
@@ -994,7 +1028,7 @@ transition: box-shadow .2s ease-in-out;
     border: none;
     border-radius: 10px;
     margin-bottom: 50px;
-
+    font-family: 'Mija';
 }
 
 .monkeySea {
@@ -1031,6 +1065,7 @@ transition: box-shadow .2s ease-in-out;
     color: RGB(51, 51, 51);
     font-weight: 400;
     line-height: 34.1833px;
+    font-family: 'Mija';
 }
 
 .personWeekH {
@@ -1038,7 +1073,8 @@ transition: box-shadow .2s ease-in-out;
     font-size: 18.6726px;
     font-weight: 400;
     line-height: 40.6px;
-    text-transform: uppercase
+    text-transform: uppercase;
+    font-family: 'Mija';
 }
 
 .personCards1 {
@@ -1046,7 +1082,7 @@ transition: box-shadow .2s ease-in-out;
     grid-template-columns: 45% 45%;
     margin-top: 80px;
     margin-bottom: 80px;
-
+    font-family: 'Mija';
 }
 
 .pCard1 {
@@ -1084,9 +1120,15 @@ transition: box-shadow .2s ease-in-out;
     color: #DB5D52;
     font-weight: 700;
     font-size: 20.206px;
-    font-family: sans-serif;
+    font-family: 'Mija';
     text-decoration: underline 1px rgb(211, 58, 44);
 
+}
+.pCardsB{
+    color: #A7A7A7;
+     font-size: 20.206px; 
+     font-weight: 400;
+     font-family: 'Mija';
 }
 
 /* .pCardsA:hover{
@@ -1096,6 +1138,7 @@ transition: box-shadow .2s ease-in-out;
     color: black;
     font-size: 33.35px;
     font-weight: 700;
+    font-family: 'Mija';
     /* line-height: 40.0167px; */
     text-decoration: none;
 }
@@ -1108,7 +1151,7 @@ transition: box-shadow .2s ease-in-out;
     color: #333333;
     font-weight: 400;
     font-size: 20.7474px;
-
+    font-family: 'Mija';
 }
 
 .time {
@@ -1118,7 +1161,18 @@ transition: box-shadow .2s ease-in-out;
     letter-spacing: 1px;
 
 }
-
+.footerH5{
+    font-family: 'Mija';
+}
 li:hover{
   color: #53120E;
+}
+.pBlue{
+    padding: 60px;
+    text-transform: uppercase;
+    font-family: 'Mija';
+}
+.pItalic{
+    font-style: italic;
+    font-family: 'Mija';
 }
